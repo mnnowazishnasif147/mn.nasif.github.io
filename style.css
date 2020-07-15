@@ -1,0 +1,314 @@
+body {
+	margin: 0;
+}
+
+
+/*** header-area ***/
+
+.header-area {
+	background: linear-gradient(#4C67A1, #3E5B99, #3B5998);
+	font-family: tahoma;
+	padding: 11px 0 9px;
+	margin-left: 0;
+}
+.header-area .container {
+	width: 92%;
+	margin: auto;
+}
+.header-area .logo-area {
+	float: left;
+	margin-top: 15px;
+	width: 30%;
+}
+.header-area .login-area {
+	overflow: hidden;
+	width: 70%;
+	font-size: 13px;
+}
+.login-area input {
+	display: block;
+}
+.login-area input[type="checkbox"] {
+	float: left;
+	margin: 2px 2px 0 0;
+}
+.login-area .keepme {
+	overflow: hidden;
+	color: #9CB4D8;
+}
+.login-area .keepme:hover {
+	cursor: pointer;
+}
+.login-area label {
+	color: #ffffff;
+}
+.login-area input[type="text"], 
+.login-area input[type="password"] {
+	margin: 4px 0;
+}
+.login-area .username-area {
+	float: left;
+	margin-right: 15px;
+}
+.login-area .password-area {
+	overflow: hidden;
+	float: left;
+	margin-right: 15px;
+}
+.login-area .submit-area {
+	overflow: hidden;
+	float: left;
+}
+.submit-area input {
+	margin-top: 18px;
+	background-color: #4267B2;
+	border: 1px solid #29487D;
+	color: #ffffff;
+	padding: 3px 7px;
+}
+.submit-area input:hover {
+	cursor: pointer;
+	background-color: #365899;
+}
+.password-area a {
+	text-decoration: none;
+	color: #9CB4D8;
+}
+.password-area a:hover {
+	text-decoration: underline;
+}
+.login-area form {
+	float: right;
+}
+
+
+
+/*** middle-area ***/
+
+.middle-area {
+	font-family: arial;
+	background: linear-gradient(#FFFFFF, #E8EBF3, #D3D8E8);
+}
+.middle-area .container {
+	width: 92%;
+	margin: auto;
+}
+.middle-area .image {
+	float: left;
+	width: 47%;
+	margin-right: 10%;
+}
+.middle-area .signup {
+	overflow: hidden;
+	width: 43%;
+}
+.image h3 {
+	font-family: inherit;
+	color: #0E385F;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 29px;
+	width: 465px;
+	margin-top: 40px;
+	margin-bottom: 5px;
+}
+.signup {
+	background: linear-gradient(#FFFFFF, #EAECF4, #D4D8E8)
+}
+.signup h1 {
+	color: #333333;
+	font-size: 36px;
+	margin-bottom: 12px;
+}
+.signup .one {
+	margin-top: 0;
+	color: #1D2129;
+	font-size: 19px;
+}
+.signup input[type="text"], 
+.signup input[type="password"] {
+	display: block;
+	margin-bottom: 10px;
+	width: 100%;
+	padding: 8px 7px;
+	border-radius: 5px;
+	border: 1px solid #BDC7D8;
+	font-size: 18px;
+	box-sizing: border-box;
+}
+.signup input[type="text"]:first-child {
+	float: left;
+	width: 48%;
+	margin-right: 4%;
+}
+.signup input[type="text"]:nth-child(2) {
+	overflow: hidden;
+	width: 47%;
+}
+.signup .birthday-area {
+	margin-top: 19px;
+}
+.birthday-area p {
+	margin-bottom: 8px;
+	color: #90949C;
+	font-weight: bold;
+}
+.birthday-area select {
+	padding: 6px;
+	border: 1px solid #E6E9F2;
+}
+.birthday-area .day, 
+.birthday-area .month {
+	float: left;
+	overflow: hidden;
+}
+.birthday-area .year {
+	overflow: hidden;
+}
+.signup .gender-area p {
+	margin-top: 14px;
+	margin-bottom: 11px;
+	color: #90949C;
+	font-weight: bold;
+}
+.gender-area input {
+	margin-left: 11px;
+}
+.gender-area label {
+	margin-left: -4px;
+	font-size: 18px;
+	color: #1D2129;
+	line-height: 18px;
+	padding: 0 10px 0 3px;
+	vertical-align: middle;
+}
+.signup form .policy {
+	margin-top: 16px;
+	color: #777777;
+	font-size: 11px;
+	line-height: 15px;
+	width: 73%;
+}
+.signup form .policy a {
+	color: #385898;
+	text-decoration: none;
+}
+.signup form .policy a:hover {
+	text-decoration: underline;
+}
+.signup form input[type="submit"] {
+	background: linear-gradient(#63A450, #598D45);
+	padding: 7px 76px;
+	font-size: 18px;
+	color: #fff;
+	font-weight: normal;
+	font-family: arial;
+	text-align: center;
+	border-radius: 7px;
+	border-top-color: 3px solid #3B6E22;
+	border-right-color: 3px solid #42742A;
+	border-bottom-color: 3px solid #2C5115;
+	border-left-color: 3px solid #3B6E22;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.signup form input[type="submit"]:hover {
+	cursor: pointer;
+	background: linear-gradient(#74B45F, #5A8C46)
+}
+.signup .create {
+	font-size: 13px;
+	font-weight: bold;
+	color: #777777;
+	padding-top: 15px;
+	padding-bottom: 12px;
+}
+.signup .create a {
+	color: #385898;
+	text-decoration: none;
+}
+.signup .create a:hover {
+	text-decoration: underline;
+}
+
+
+
+
+
+/*** footer-area ***/
+
+
+.footer-area {
+	margin-top: 50px;
+}
+.footer-area .container {
+	width: 93%;
+	margin: auto;
+}
+.footer-area ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.footer-area ul li {
+	float: left;
+}
+
+.footer-top,
+.footer-bottom-one, 
+.footer-bottom-two, 
+.footer-bottom-three {
+	overflow: hidden;
+}
+.footer-area .footer-top {
+	width: 90%;
+}
+.footer-area ul li a {
+	text-decoration: none;
+	font-size: 12px;
+	font-family: arial;
+	color: #385898;
+}
+.footer-area ul li a:hover {
+	text-decoration: underline;
+}
+.footer-top ul li:last-child:hover {
+	text-decoration: none;
+	cursor: pointer;
+}
+.footer-area .footer-top ul li {
+	margin-right: 11px;
+}
+.footer-top ul li:last-child {
+	background: #EBEDF0;
+	border: 2px solid #90949C;
+	padding: 0 11px;
+	border-radius: 2px;
+}
+.footer-area hr {
+	border-bottom: 1px solid #DDDFE2;
+	border-top: 0;
+}
+.footer-area .footer-bottom-one ul li {
+	margin-right: 14px;
+	line-height: 18px;
+}
+.footer-area .footer-bottom-two ul li {
+	margin-right: 19px;
+	line-height: 18px;
+}
+.footer-area .footer-bottom-three ul li {
+	margin-right: 15px;
+}
+.footer-area p {
+	margin-bottom: 15px;
+	margin-top: 20px;
+	font-size: 12px;
+	color: #737373;
+}
+
+
+
+
+
+
